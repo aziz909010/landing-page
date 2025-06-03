@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>خدمات روحانية - الشيخة فاطمة القاسم</title>
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #f9f9f9;
+            margin: 0; padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            direction: rtl;
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            background: #fff;
+            padding: 30px 25px;
+            border-radius: 12px;
+            max-width: 400px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #3178c6;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        p.services {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #555;
+        }
+        a.whatsapp-btn {
+            display: inline-block;
+            background-color: #25d366;
+            color: white;
+            font-weight: 600;
+            padding: 15px 35px;
+            border-radius: 50px;
+            font-size: 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 6px 10px rgba(37,211,102,0.3);
+        }
+        a.whatsapp-btn:hover {
+            background-color: #1ebe57;
+            box-shadow: 0 8px 14px rgba(30,184,83,0.5);
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>الشيخة الروحانية فاطمة القاسم</h1>
+        <p class="services">
+            نقدم خدمات روحانية متنوعة<br />
+            تشمل:<br />
+            - جلب الحبيب بطريقة شرعية<br />
+            - علاج المشكلات الروحانية<br />
+            - دعم حل الخلافات الزوجية<br />
+            نسعى لتقديم الاستشارات والمساعدة بروح إيجابية واحترام.
+        </p>
+        <a class="whatsapp-btn" href="https://wa.me/905528077739" target="_blank" rel="noopener">
+            تواصل معنا عبر واتساب
+        </a>
+        <footer>
+            جميع الخدمات تحت إشراف الشيخة فاطمة القاسم
+        </footer>
+    </div>
+</body>
+</html>
