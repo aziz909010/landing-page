@@ -13,6 +13,22 @@
   gtag('js', new Date());
   gtag('config', 'AW-617948757');
 </script>
+
+<!-- Event snippet for زر واتساب conversion page -->
+<script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-617948757/kfrFCN6R_eMaENXM1KYC',
+        'event_callback': callback
+    });
+    return false;
+  }
+</script>
     
     <style>
         body {
@@ -79,14 +95,11 @@
             - دعم حل الخلافات الزوجية<br />
             نسعى لتقديم الاستشارات والمساعدة بروح إيجابية واحترام.
         </p>
-       <a class="whatsapp-btn"
-   href="https://wa.me/905528077739"
-   target="_blank"
-   rel="noopener"
-   onclick="gtag('event', 'conversion', {'send_to': 'AW-617948757/kfrFCN6R_eMaENXM1KYC'});">
+ <a class="whatsapp-btn"
+   href="#"
+   onclick="return gtag_report_conversion('https://wa.me/905528077739');">
    تواصل معنا عبر واتساب
 </a>
-
         <footer>
             جميع الخدمات تحت إشراف الشيخة فاطمة القاسم
         </footer>
