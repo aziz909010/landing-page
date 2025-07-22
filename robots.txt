@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://aziz909010.github.io/landing-page/sitemap.xml
