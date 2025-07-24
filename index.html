@@ -9,6 +9,21 @@
     gtag('js', new Date());
     gtag('config', 'G-0CVCDY38N4');
   </script>
+  <script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-617948757/5LrkCN2K9vcaENXM1KYC',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
 
   <!-- Google Ads Global Site Tag -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-617948757"></script>
@@ -127,7 +142,7 @@
       </ul>
     </section>
 
-    <a class="whatsapp-btn" href="#" onclick="return gtag_report_conversion('https://wa.me/905528077739');">احجزي استشارتك عبر واتساب</a>
+<a class="whatsapp-btn" href="https://wa.me/905528077739" onclick="return gtag_report_conversion('https://wa.me/905528077739');">احجزي استشارتك عبر واتساب</a>
 
     <section id="about">
       <h2>عن الشيخة فاطمة</h2>
